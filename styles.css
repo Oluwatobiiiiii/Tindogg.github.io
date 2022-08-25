@@ -142,7 +142,7 @@ body {
   }
   
   /* Pricing Section */
-  
+ 
   #pricing {
     padding: 100px;
   }
@@ -166,15 +166,16 @@ body {
     margin: 20px 10px;
   }
   
-  @media screen and (min-width: 480px) {
-  
-    #title {
-      text-align: center;
-    }
-  
-    .title-image {
-      position: static;
-      transform: rotate(0);
-    }
+ @media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
 
   
